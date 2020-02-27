@@ -1,8 +1,0 @@
-#baseURL = "http://automationpractice.com/index.php"
-baseURL ="https://opensource-demo.orangehrmlive.com/index.php/auth/login"
-logfile_prefix="./logs/MS.prod.log."
-reportfile_prefix="./reports/MS.prod.report."
-screenshot_path="./screenshots/Prod."
-testcase_path="./autocase/testCase.xlsx"
-ie_path="C:\\Users\\rohit\D\ownloads\\IEDriverServer_x64_3.14.0\\IEDriverServer.exe"
-chrome_path="C:\\Users\Rohit\\PycharmProjects\\Web_Framework\\utils\\chromedriver.exe"
