@@ -1,0 +1,20 @@
+2020-02-27 20:37:17,641 - INFO - Element found with locator: //input[@name="username"] and  locatorType: xpath
+2020-02-27 20:37:17,788 - INFO - Sent data on element with locator: //input[@name="username"] locatorType: xpath
+2020-02-27 20:37:17,820 - INFO - Element found with locator: //input[@name="password"] and  locatorType: xpath
+2020-02-27 20:37:18,012 - INFO - Sent data on element with locator: //input[@name="password"] locatorType: xpath
+2020-02-27 20:37:18,048 - INFO - Element found with locator: btnLogin and  locatorType: id
+2020-02-27 20:37:18,257 - INFO - Clicked on element with locator: btnLogin locatorType: id
+2020-02-27 20:37:18,297 - INFO - Element not found with locator: //span[containsz(text(),"Invalid Username/Password")] and  locatorType: xpath
+2020-02-27 20:37:18,298 - INFO - Element not present with locator: //span[containsz(text(),"Invalid Username/Password")] locatorType: xpath
+2020-02-27 20:37:18,298 - ERROR - ### VERIFICATION FAILED :: + Incorrect Password
+2020-02-27 20:37:18,298 - ERROR - test_invalid_SignIn ### TEST FAILED
+2020-02-27 20:37:54,201 - INFO - Element found with locator: //input[@name="username"] and  locatorType: xpath
+2020-02-27 20:37:54,906 - INFO - Sent data on element with locator: //input[@name="username"] locatorType: xpath
+2020-02-27 20:37:54,940 - INFO - Element found with locator: //input[@name="password"] and  locatorType: xpath
+2020-02-27 20:37:55,124 - INFO - Sent data on element with locator: //input[@name="password"] locatorType: xpath
+2020-02-27 20:37:55,160 - INFO - Element found with locator: btnLogin and  locatorType: id
+2020-02-27 20:37:55,540 - INFO - Clicked on element with locator: btnLogin locatorType: id
+2020-02-27 20:37:55,605 - INFO - Element not found with locator: //span[containsz(text(),"Invalid Username/Password")] and  locatorType: xpath
+2020-02-27 20:37:55,605 - INFO - Element not present with locator: //span[containsz(text(),"Invalid Username/Password")] locatorType: xpath
+2020-02-27 20:37:55,605 - ERROR - ### VERIFICATION FAILED :: + Incorrect Password
+2020-02-27 20:37:55,605 - ERROR - test_invalid_SignIn ### TEST FAILED

@@ -1,0 +1,10 @@
+2020-02-27 20:23:18,604 - INFO - Element found with locator: //input[@name="username"] and  locatorType: xpath
+2020-02-27 20:23:18,763 - INFO - Sent data on element with locator: //input[@name="username"] locatorType: xpath
+2020-02-27 20:23:18,790 - INFO - Element found with locator: //input[@name="password"] and  locatorType: xpath
+2020-02-27 20:23:18,955 - INFO - Sent data on element with locator: //input[@name="password"] locatorType: xpath
+2020-02-27 20:23:18,977 - INFO - Element found with locator: btnLogin and  locatorType: id
+2020-02-27 20:23:19,622 - INFO - Clicked on element with locator: btnLogin locatorType: id
+2020-02-27 20:23:19,645 - INFO - Element found with locator: //span[contains(text(),"Invalid Username/Password")] and  locatorType: xpath
+2020-02-27 20:23:19,646 - INFO - Element present with locator: //span[contains(text(),"Invalid Username/Password")] locatorType: xpath
+2020-02-27 20:23:19,646 - INFO - ### VERIFICATION SUCCESSFUL :: + Incorrect Password
+2020-02-27 20:23:19,646 - INFO - test_invalid_SignIn ### TEST SUCCESSFUL
