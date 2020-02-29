@@ -28,5 +28,6 @@ Test Case Pass:
 Test Case Fail:
 ![Alt text](https://github.com/rohitratnakumar09/Python_Selenium_Automation/blob/master/test_github/html_report_error_screenshot.PNG?raw=true "Test Result")
 
-Report (Zip File)
+Report (Zip File):
+
 ![Alt text](https://github.com/rohitratnakumar09/Python_Selenium_Automation/blob/master/test_github/report_zipped.PNG?raw=true "Test Result")
