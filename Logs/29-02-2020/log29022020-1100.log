@@ -1,0 +1,20 @@
+2020-02-29 11:00:27,156 - INFO - Element found with locator: //input[@name='username'] and  locatorType: xpath
+2020-02-29 11:00:27,671 - INFO - Sent data on element with locator: //input[@name='username'] locatorType: xpath
+2020-02-29 11:00:27,694 - INFO - Element found with locator: //input[@name='password'] and  locatorType: xpath
+2020-02-29 11:00:27,819 - INFO - Sent data on element with locator: //input[@name='password'] locatorType: xpath
+2020-02-29 11:00:27,858 - INFO - Element found with locator: btnLogin and  locatorType: id
+2020-02-29 11:00:28,408 - INFO - Clicked on element with locator: btnLogin locatorType: id
+2020-02-29 11:00:28,476 - INFO - Element found with locator: //span[contains(text(),'Invalid Username/Password')] and  locatorType: xpath
+2020-02-29 11:00:28,476 - INFO - Element present with locator: //span[contains(text(),'Invalid Username/Password')] locatorType: xpath
+2020-02-29 11:00:28,477 - INFO - ### VERIFICATION SUCCESSFUL :: + In-valid SignIn
+2020-02-29 11:00:28,477 - INFO - test_invalid_SignIn ### TEST SUCCESSFUL
+2020-02-29 11:00:28,653 - INFO - Element found with locator: //input[@name='username'] and  locatorType: xpath
+2020-02-29 11:00:28,807 - INFO - Sent data on element with locator: //input[@name='username'] locatorType: xpath
+2020-02-29 11:00:28,826 - INFO - Element found with locator: //input[@name='password'] and  locatorType: xpath
+2020-02-29 11:00:28,975 - INFO - Sent data on element with locator: //input[@name='password'] locatorType: xpath
+2020-02-29 11:00:28,993 - INFO - Element found with locator: btnLogin and  locatorType: id
+2020-02-29 11:00:29,367 - INFO - Clicked on element with locator: btnLogin locatorType: id
+2020-02-29 11:00:29,423 - INFO - Element found with locator: //span[contains(text(),'admin')] and  locatorType: xpath
+2020-02-29 11:00:29,424 - INFO - Element present with locator: //span[contains(text(),'admin')] locatorType: xpath
+2020-02-29 11:00:29,424 - INFO - ### VERIFICATION SUCCESSFUL :: + Valid SignIn
+2020-02-29 11:00:29,424 - INFO - test_valid_SignIn ### TEST SUCCESSFUL

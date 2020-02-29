@@ -1,0 +1,33 @@
+[
+  {
+    "page_name":"LoginPage",
+    "name":"username",
+    "locate":"xpath",
+    "locator":"//input[@name='username']"
+  },
+  {
+    "page_name":"LoginPage",
+    "name":"password",
+    "locate":"xpath",
+    "locator":"//input[@name='password']"
+  },
+  {
+    "page_name":"LoginPage",
+    "name":"submit_btn",
+    "locate":"id",
+    "locator":"btnLogin"
+  },
+    {
+    "page_name":"LoginPage",
+    "name":"verify_signin",
+    "locate":"xpath",
+    "locator":"//span[contains(text(),'admin')]"
+  },
+     {
+    "page_name":"LoginPage",
+    "name":"error_signin",
+    "locate":"xpath",
+    "locator":"//span[contains(text(),'Invalid Username/Password')]"
+
+  }
+]

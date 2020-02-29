@@ -1,7 +1,8 @@
-
+from Utilities.locator_utility import Locators
 from Utilities.ui_utility import Utility
 class Login_Page(Utility):
-
+    loc = Locators("login_locator.json")
+    loc.read_json()
     def __init__(self,driver):
         super().__init__(driver)
         self.driver=driver
@@ -12,11 +13,14 @@ class Login_Page(Utility):
 
 
     def clickUsername(self,username):
-        self.sendKeys(username,self._username,locatorType='xpath')
+        locate, locator = self.loc.page_locators("LoginPage", "username")
+        self.sendKeys(username,locator,locatorType=locate)
     def clickPassword(self,pwd):
-        self.sendKeys(pwd,self._password,locatorType='xpath')
+        locate, locator = self.loc.page_locators("LoginPage", "password")
+        self.sendKeys(pwd,locator,locatorType=locate)
     def clickSubmit(self):
-        self.elementClick(self._submit_btn,locatorType="id")
+        locate, locator = self.loc.page_locators("LoginPage", "submit_btn")
+        self.elementClick(locator,locatorType=locate)
     def scroll(self):
         self.driver.execute_script("window.scrollTo(0, 150)")
 
@@ -26,10 +30,14 @@ class Login_Page(Utility):
         self.clickSubmit()
 
     def verifySignin(self):
-        result=  self.isElementPresent("//span[contains(text(),'admin')]",locatorType="xpath")
+
+        locate, locator = self.loc.page_locators("LoginPage", "verify_signin")
+        result=  self.isElementPresent(locator,locatorType=locate)
         return result
 
     def errorSignIn(self):
-        result = self.isElementPresent('//span[containsz(text(),"Invalid Username/Password")]',locatorType="xpath")
+
+        locate, locator = self.loc.page_locators("LoginPage", "error_signin")
+        result = self.isElementPresent(locator,locatorType=locate)
         return result
 

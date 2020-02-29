@@ -17,10 +17,16 @@ class Login_Test(unittest.TestCase):
             self.ts = Status(self.driver)
 
 
+        def test_valid_SignIn(self):
+                  excel_Data=self.data.get_excel_data("LoginPage","test_valid_SignIn")
+
+                  self.lp.login(excel_Data.get("Username"), excel_Data.get("Password"))
+                  result= self.lp.verifySignin()
+                  self.ts.markFinal("test_valid_SignIn", result, "Valid SignIn","LoginPage")
+
         def test_invalid_SignIn(self):
-                  excel_Data=self.data.get_excel_data("LoginPage","test_invalid_SignIn")
+            excel_Data = self.data.get_excel_data("LoginPage", "test_invalid_SignIn")
 
-                  self.lp.login(excel_Data.get("Username"), excel_Data.get("Username"))
-                  result1 = self.lp.errorSignIn()
-                  self.ts.markFinal("test_invalid_SignIn", result1, "Incorrect Password","LoginPage")
-
+            self.lp.login(excel_Data.get("Username"), excel_Data.get("Password"))
+            result= self.lp.errorSignIn()
+            self.ts.markFinal("test_invalid_SignIn", result, "In-valid SignIn", "LoginPage")

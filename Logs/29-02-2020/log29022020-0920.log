@@ -1,0 +1,10 @@
+2020-02-29 09:21:04,464 - INFO - Element not found with locator: //input[@name='username'] and  locatorType: xpath
+2020-02-29 09:21:04,465 - INFO - Cannot send data on the element with locator: //input[@name='username'] locatorType: xpath
+2020-02-29 09:21:07,550 - INFO - Element not found with locator: //input[@name='password'] and  locatorType: xpath
+2020-02-29 09:21:07,550 - INFO - Cannot send data on the element with locator: //input[@name='password'] locatorType: xpath
+2020-02-29 09:21:10,669 - INFO - Element not found with locator: //input[@name='password'] and  locatorType: xpath
+2020-02-29 09:21:10,669 - INFO - Cannot click on the element with locator: //input[@name='password'] locatorType: xpath
+2020-02-29 09:21:13,685 - INFO - Element not found with locator: //span[contains(text(),'admin')] and  locatorType: xpath
+2020-02-29 09:21:13,685 - INFO - Element not present with locator: //span[contains(text(),'admin')] locatorType: xpath
+2020-02-29 09:21:13,685 - ERROR - ### VERIFICATION FAILED :: + Incorrect Password
+2020-02-29 09:21:13,685 - ERROR - test_invalid_SignIn ### TEST FAILED

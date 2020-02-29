@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 27-Feb-2020 at 20:37:58 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
+    <p>Report generated on 29-Feb-2020 at 11:07:49 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -257,8 +257,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 17.84 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 17.86 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -269,22 +269,39 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">test_Login.py::Login_Test::test_invalid_SignIn</td>
-          <td class="col-duration">1.69</td>
+          <td class="col-duration">1.13</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div><div><img src="file:/C:\Users\rohit\PycharmProjects\Selenium_Framework\temp\screenshots\test_Login.py_Login_Test_test_invalid_SignIn.png" alt="screenshot" style="width:600px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;Tests.test_Login.Login_Test testMethod=test_invalid_SignIn&gt;<br/><br/>    def test_invalid_SignIn(self):<br/>              excel_Data=self.data.get_excel_data(&quot;LoginPage&quot;,&quot;test_invalid_SignIn&quot;)<br/>    <br/>              self.lp.login(excel_Data.get(&quot;Username&quot;), excel_Data.get(&quot;Username&quot;))<br/>              result1 = self.lp.errorSignIn()<br/>&gt;             self.ts.markFinal(&quot;test_invalid_SignIn&quot;, result1, &quot;Incorrect Password&quot;,&quot;LoginPage&quot;)<br/><br/>test_Login.py:25: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;Utilities.exec_status_utility.Status object at 0x047DE9B0&gt;, testName = &#x27;test_invalid_SignIn&#x27;, result = False, resultMessage = &#x27;Incorrect Password&#x27;<br/>sheetName = &#x27;LoginPage&#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage,sheetName):<br/>        &quot;&quot;&quot;<br/>        Mark the final result of the verification point in a test case<br/>        This needs to be called at least once in a test case<br/>        This should be final test status of the test case<br/>        &quot;&quot;&quot;<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName +  &quot; ### TEST FAILED&quot;)<br/>            self.data.add_excel_result(sheetName, testName, &quot;Fail&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>..\Utilities\exec_status_utility.py:54: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&quot;username&quot;] and  locatorType: xpath
-[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&quot;username&quot;] locatorType: xpath
-[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&quot;password&quot;] and  locatorType: xpath
-[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&quot;password&quot;] locatorType: xpath
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&#x27;username&#x27;] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&#x27;username&#x27;] locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&#x27;password&#x27;] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&#x27;password&#x27;] locatorType: xpath
 [32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: btnLogin and  locatorType: id
 [32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:106 Clicked on element with locator: btnLogin locatorType: id
-[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:76 Element not found with locator: //span[containsz(text(),&quot;Invalid Username/Password&quot;)] and  locatorType: xpath
-[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:173 Element not present with locator: //span[containsz(text(),&quot;Invalid Username/Password&quot;)] locatorType: xpath
-[1m[31mERROR   [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:24 ### VERIFICATION FAILED :: + Incorrect Password
-[1m[31mERROR   [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:51 test_invalid_SignIn ### TEST FAILED<br/></div></td></tr></tbody></table></body></html>
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //span[contains(text(),&#x27;Invalid Username/Password&#x27;)] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:169 Element present with locator: //span[contains(text(),&#x27;Invalid Username/Password&#x27;)] locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:21 ### VERIFICATION SUCCESSFUL :: + In-valid SignIn
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:56 test_invalid_SignIn ### TEST SUCCESSFUL<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_Login.py::Login_Test::test_valid_SignIn</td>
+          <td class="col-duration">0.80</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&#x27;username&#x27;] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&#x27;username&#x27;] locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //input[@name=&#x27;password&#x27;] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:122 Sent data on element with locator: //input[@name=&#x27;password&#x27;] locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: btnLogin and  locatorType: id
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:106 Clicked on element with locator: btnLogin locatorType: id
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:73 Element found with locator: //span[contains(text(),&#x27;admin&#x27;)] and  locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\ui_utility.py - 	LN:14:ui_utility.py:169 Element present with locator: //span[contains(text(),&#x27;admin&#x27;)] locatorType: xpath
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:21 ### VERIFICATION SUCCESSFUL :: + Valid SignIn
+[32mINFO    [0m C:\Users\rohit\PycharmProjects\Selenium_Framework\Utilities\exec_status_utility.py - 	LN:9:exec_status_utility.py:56 test_valid_SignIn ### TEST SUCCESSFUL<br/></div></td></tr></tbody></table></body></html>
