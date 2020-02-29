@@ -11,3 +11,11 @@ Test Automation Framework using selenium and Python with the below features:
 Install dependences
 
 Install the depended packages in requirements.txt using pip install -r requirements.txt
+
+Run the test case
+In order to run the test case after creation, use on of the below commands:
+pytest
+
+Test Data:
+
+![Alt text](https://github.com/rohitratnakumar09/Python_Selenium_Automation/blob/master/test_github/test_data.PNG?raw=true "Test Data")
