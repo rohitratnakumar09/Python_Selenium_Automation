@@ -2,32 +2,45 @@
   {
     "page_name":"LoginPage",
     "name":"username",
-    "locate":"xpath",
-    "locator":"//input[@name='username']"
+    "locate":"id",
+    "locator":"email"
   },
   {
     "page_name":"LoginPage",
     "name":"password",
-    "locate":"xpath",
-    "locator":"//input[@name='password']"
+    "locate":"id",
+    "locator":"passwd"
   },
   {
     "page_name":"LoginPage",
     "name":"submit_btn",
     "locate":"id",
-    "locator":"btnLogin"
+    "locator":"SubmitLogin"
   },
     {
     "page_name":"LoginPage",
     "name":"verify_signin",
     "locate":"xpath",
-    "locator":"//span[contains(text(),'admin')]"
+    "locator":"//*[@id='header']//span[contains(text(),'username')]"
   },
      {
     "page_name":"LoginPage",
     "name":"error_signin",
     "locate":"xpath",
-    "locator":"//span[contains(text(),'Invalid Username/Password')]"
+    "locator":"//*[@id='center_column']//li[contains(text(),'Authentication failed.')]"
 
+  },
+  {
+    "page_name":"LoginPage",
+    "name":"sign_out",
+    "locate":"xpath",
+    "locator":"//*[@id='header']//a[@title='Log me out']"
+
+  },
+  {
+    "page_name":"LoginPage",
+    "name":"sign_in",
+    "locate":"xpath",
+    "locator":"//*[@id='header']//a[contains(text(),'Sign in')]"
   }
 ]

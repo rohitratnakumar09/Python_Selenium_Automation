@@ -28,9 +28,3 @@ class Locators:
         for locator in page_locator:
             if locator['name']==locator_name:
                 return locator['locate'],locator['locator']
-# loc=Locators("login_locator.json")
-# print(loc.read_json())
-# print(loc.page_locators("LoginPage","username"))
-# locator,path=loc.page_locators("LoginPage","username")
-# print(locator)
-# print(path)

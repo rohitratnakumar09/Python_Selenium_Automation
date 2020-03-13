@@ -1,0 +1,5 @@
+2020-03-07 12:17:12,808 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 12:17:12,809 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 12:17:12,832 - INFO - Element found with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 12:17:12,916 - INFO - Cannot move and click on the element with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 12:17:12,943 - INFO - ### VERIFICATION CONTAINS !!!

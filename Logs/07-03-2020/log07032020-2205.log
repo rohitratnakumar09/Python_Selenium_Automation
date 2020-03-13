@@ -1,0 +1,22 @@
+2020-03-07 22:05:49,349 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 22:05:49,897 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 22:05:49,928 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 22:05:55,272 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 22:05:55,286 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 22:05:55,308 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 22:05:55,329 - INFO - Getting text on element :: 
+2020-03-07 22:05:55,329 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 22:05:55,363 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 22:05:55,363 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 22:05:55,389 - INFO - Element found with locator: //*[@id='center_column']/ul/li/div and  locatorType: xpath
+2020-03-07 22:05:55,923 - INFO - Moved on element with locator: //*[@id='center_column']/ul/li/div locatorType: xpath
+2020-03-07 22:05:55,952 - INFO - Element found with locator: //*[@title='Add to cart'] and  locatorType: xpath
+2020-03-07 22:05:56,090 - INFO - Clicked on element with locator: //*[@title='Add to cart'] locatorType: xpath
+2020-03-07 22:05:56,092 - INFO - Waiting for maximum :: 60 :: seconds for element to be clickable
+2020-03-07 22:05:57,266 - INFO - Element appeared on the web page
+2020-03-07 22:05:57,283 - INFO - Element found with locator: //*[@id='layer_cart_product_price'] and  locatorType: xpath
+2020-03-07 22:05:57,315 - INFO - Getting text on element :: 
+2020-03-07 22:05:57,315 - INFO - The text is :: '$26.00'
+2020-03-07 22:05:57,315 - INFO - price$26.00
+2020-03-07 22:05:57,315 - INFO - ### VERIFICATION SUCCESSFUL :: + test_add_product
+2020-03-07 22:05:57,315 - INFO - test_add_product ### TEST SUCCESSFUL

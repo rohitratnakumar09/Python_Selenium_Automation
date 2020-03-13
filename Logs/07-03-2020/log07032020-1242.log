@@ -1,0 +1,10 @@
+2020-03-07 12:42:28,484 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 12:42:29,042 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 12:42:29,072 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 12:42:35,098 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 12:42:35,112 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 12:42:35,130 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 12:42:35,147 - INFO - Getting text on element :: 
+2020-03-07 12:42:35,148 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 12:42:35,148 - ERROR - ### VERIFICATION FAILED :: + test_search_casual_dress
+2020-03-07 12:42:35,148 - ERROR - test_search_casual_dress ### TEST FAILED

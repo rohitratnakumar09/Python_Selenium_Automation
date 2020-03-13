@@ -1,0 +1,26 @@
+2020-03-07 15:20:58,332 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 15:20:58,936 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 15:20:58,968 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 15:21:04,317 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 15:21:04,346 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 15:21:04,393 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 15:21:04,424 - INFO - Getting text on element :: 
+2020-03-07 15:21:04,424 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 15:21:04,514 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 15:21:04,514 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 15:21:04,528 - INFO - Element found with locator: //*[@class='available-now']//following::link and  locatorType: xpath
+2020-03-07 15:21:04,582 - ERROR - ### VERIFICATION FAILED :: + test_add_product
+2020-03-07 15:21:04,582 - ERROR - test_add_product ### TEST FAILED
+2020-03-07 15:21:05,194 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 15:21:05,746 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 15:21:05,802 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 15:21:08,802 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 15:21:08,822 - ERROR - Failed to get page title
+2020-03-07 15:21:08,866 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 15:21:08,902 - INFO - Getting text on element :: 
+2020-03-07 15:21:08,906 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 15:21:08,954 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 15:21:08,954 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 15:21:08,986 - INFO - Element found with locator: //*[@class='available-now']//following::link and  locatorType: xpath
+2020-03-07 15:21:09,034 - ERROR - ### VERIFICATION FAILED :: + test_search_stock_casual_dress
+2020-03-07 15:21:09,034 - ERROR - test_search_stock_casual_dress ### TEST FAILED

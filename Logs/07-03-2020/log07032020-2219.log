@@ -1,0 +1,39 @@
+2020-03-07 22:19:50,376 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 22:19:50,911 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 22:19:50,933 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 22:19:56,345 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 22:19:56,362 - INFO - Casual Dresses - My Store
+2020-03-07 22:19:56,363 - INFO - Casual Dresses - My Store
+2020-03-07 22:19:56,363 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 22:19:56,393 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 22:19:56,415 - INFO - Getting text on element :: 
+2020-03-07 22:19:56,416 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 22:19:56,452 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 22:19:56,452 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 22:19:56,479 - INFO - Element found with locator: //*[@id='center_column']/ul/li/div and  locatorType: xpath
+2020-03-07 22:19:57,015 - INFO - Moved on element with locator: //*[@id='center_column']/ul/li/div locatorType: xpath
+2020-03-07 22:19:57,035 - INFO - Element found with locator: //*[@title='Add to cart'] and  locatorType: xpath
+2020-03-07 22:19:57,134 - INFO - Clicked on element with locator: //*[@title='Add to cart'] locatorType: xpath
+2020-03-07 22:19:57,137 - INFO - Waiting for maximum :: 60 :: seconds for element to be clickable
+2020-03-07 22:19:58,293 - INFO - Element appeared on the web page
+2020-03-07 22:19:58,305 - INFO - Element found with locator: //*[@id='layer_cart_product_price'] and  locatorType: xpath
+2020-03-07 22:19:58,327 - INFO - Getting text on element :: 
+2020-03-07 22:19:58,327 - INFO - The text is :: '$26.00'
+2020-03-07 22:19:58,327 - INFO - price$26.00
+2020-03-07 22:19:58,327 - INFO - ### VERIFICATION SUCCESSFUL :: + test_add_product
+2020-03-07 22:19:58,327 - INFO - test_add_product ### TEST SUCCESSFUL
+2020-03-07 22:19:58,398 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 22:19:58,925 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 22:19:58,940 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 22:19:58,951 - INFO - Cannot move and click on the element with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 22:19:58,960 - INFO - Casual Dresses - My Store
+2020-03-07 22:19:58,960 - INFO - None
+2020-03-07 22:19:58,960 - ERROR - Failed to get page title
+2020-03-07 22:19:58,976 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 22:19:58,996 - INFO - Getting text on element :: 
+2020-03-07 22:19:58,996 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 22:19:59,037 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 22:19:59,038 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 22:19:59,054 - INFO - Element found with locator: //*[@class='available-now']//following::link and  locatorType: xpath
+2020-03-07 22:19:59,084 - ERROR - ### VERIFICATION FAILED :: + test_search_stock_casual_dress
+2020-03-07 22:19:59,084 - ERROR - test_search_stock_casual_dress ### TEST FAILED

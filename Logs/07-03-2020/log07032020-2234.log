@@ -1,0 +1,48 @@
+2020-03-07 22:35:42,544 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
+2020-03-07 22:35:43,256 - INFO - Moved on element with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] locatorType: xpath
+2020-03-07 22:35:43,346 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] and  locatorType: xpath
+2020-03-07 22:35:43,523 - INFO - Element found with locator: //*[@id='header']//a[contains(text(),'Sign in')] and  locatorType: xpath
+2020-03-07 22:35:44,028 - INFO - Element found with locator: //*[@id='header']//a[contains(text(),'Sign in')] and  locatorType: xpath
+2020-03-07 22:35:48,209 - INFO - Clicked on element with locator: //*[@id='header']//a[contains(text(),'Sign in')] locatorType: xpath
+2020-03-07 22:35:48,427 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 22:35:48,563 - INFO - Element found with locator: email and  locatorType: id
+2020-03-07 22:35:48,798 - INFO - Clicked on element with locator: //*[@id='header']//a[contains(text(),'Sign in')] locatorType: xpath
+2020-03-07 22:35:48,891 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 22:35:49,033 - INFO - Element found with locator: email and  locatorType: id
+2020-03-07 22:35:49,048 - INFO - Moved on element and click with locator: //*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')] locatorType: xpath
+2020-03-07 22:35:49,086 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 22:35:49,145 - INFO - Element found with locator: //*[@id='center_column']//span[@class='cat-name'] and  locatorType: xpath
+2020-03-07 22:35:49,262 - INFO - Getting text on element :: 
+2020-03-07 22:35:49,263 - INFO - The text is :: 'CASUAL DRESSES '
+2020-03-07 22:35:49,362 - INFO - Sent data on element with locator: email locatorType: id
+2020-03-07 22:35:49,393 - INFO - Element found with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] and  locatorType: xpath
+2020-03-07 22:35:49,393 - INFO - Element present with locator: //*[@id='center_column']//a[contains(text(),'Printed Dress')] locatorType: xpath
+2020-03-07 22:35:49,411 - INFO - Element found with locator: passwd and  locatorType: id
+2020-03-07 22:35:49,430 - INFO - Element found with locator: //*[@id='center_column']/ul/li/div and  locatorType: xpath
+2020-03-07 22:35:49,577 - INFO - Sent data on element with locator: email locatorType: id
+2020-03-07 22:35:49,614 - INFO - Element found with locator: passwd and  locatorType: id
+2020-03-07 22:35:49,677 - INFO - Sent data on element with locator: passwd locatorType: id
+2020-03-07 22:35:49,711 - INFO - Element found with locator: SubmitLogin and  locatorType: id
+2020-03-07 22:35:49,829 - INFO - Sent data on element with locator: passwd locatorType: id
+2020-03-07 22:35:49,897 - INFO - Element found with locator: SubmitLogin and  locatorType: id
+2020-03-07 22:35:50,038 - INFO - Moved on element with locator: //*[@id='center_column']/ul/li/div locatorType: xpath
+2020-03-07 22:35:50,071 - INFO - Element found with locator: //*[@title='Add to cart'] and  locatorType: xpath
+2020-03-07 22:35:50,229 - INFO - Clicked on element with locator: //*[@title='Add to cart'] locatorType: xpath
+2020-03-07 22:35:50,229 - INFO - Waiting for maximum :: 60 :: seconds for element to be clickable
+2020-03-07 22:35:52,033 - INFO - Element appeared on the web page
+2020-03-07 22:35:52,051 - INFO - Element found with locator: //*[@id='layer_cart_product_price'] and  locatorType: xpath
+2020-03-07 22:35:52,093 - INFO - Getting text on element :: 
+2020-03-07 22:35:52,093 - INFO - The text is :: '$26.00'
+2020-03-07 22:35:52,094 - INFO - price$26.00
+2020-03-07 22:35:52,094 - INFO - ### VERIFICATION SUCCESSFUL :: + test_add_product
+2020-03-07 22:35:52,094 - INFO - test_add_product ### TEST SUCCESSFUL
+2020-03-07 22:35:52,570 - INFO - Clicked on element with locator: SubmitLogin locatorType: id
+2020-03-07 22:35:52,670 - INFO - Element found with locator: //*[@id='header']//span[contains(text(),'Firstname lastname')] and  locatorType: xpath
+2020-03-07 22:35:52,672 - INFO - Element present with locator: //*[@id='header']//span[contains(text(),'Firstname lastname')] locatorType: xpath
+2020-03-07 22:35:52,673 - INFO - ### VERIFICATION SUCCESSFUL :: + Valid SignIn
+2020-03-07 22:35:52,674 - INFO - test_valid_SignIn ### TEST SUCCESSFUL
+2020-03-07 22:35:52,723 - INFO - Clicked on element with locator: SubmitLogin locatorType: id
+2020-03-07 22:35:52,806 - INFO - Element found with locator: //*[@id='center_column']//li[contains(text(),'Authentication failed.')] and  locatorType: xpath
+2020-03-07 22:35:52,807 - INFO - Element present with locator: //*[@id='center_column']//li[contains(text(),'Authentication failed.')] locatorType: xpath
+2020-03-07 22:35:52,807 - INFO - ### VERIFICATION SUCCESSFUL :: + In-valid SignIn
+2020-03-07 22:35:52,807 - INFO - test_invalid_SignIn ### TEST SUCCESSFUL

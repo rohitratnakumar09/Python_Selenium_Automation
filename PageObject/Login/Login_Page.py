@@ -7,11 +7,17 @@ class Login_Page(Utility):
         super().__init__(driver)
         self.driver=driver
 
-    _username='//input[@name="username"]'
-    _password='//input[@name="password"]'
-    _submit_btn='btnLogin'
 
 
+    def clickSignIn(self):
+        locate, locator = self.loc.page_locators("LoginPage", "sign_in")
+        self.elementClick(locator, locatorType=locate)
+
+    def clickSignOut(self):
+            locate, locator = self.loc.page_locators("LoginPage", "sign_out")
+            self.elementClick(locator, locatorType=locate)
+    def loginTitle(self,title):
+        self.verifyPageTitle(title)
     def clickUsername(self,username):
         locate, locator = self.loc.page_locators("LoginPage", "username")
         self.sendKeys(username,locator,locatorType=locate)
@@ -29,9 +35,10 @@ class Login_Page(Utility):
         self.clickPassword(pwd)
         self.clickSubmit()
 
-    def verifySignin(self):
+    def verifySignin(self,first_last):
 
         locate, locator = self.loc.page_locators("LoginPage", "verify_signin")
+        locator=locator.replace("username",first_last)
         result=  self.isElementPresent(locator,locatorType=locate)
         return result
 

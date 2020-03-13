@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -243,5 +244,57 @@ class Utility():
 
         if direction == "down":
             # Scroll Down
-            self.driver.execute_script("window.scrollBy(0, 500);")
+            self.driver.execute_script("window.scrollBy(0, 700);")
 
+    def verifyPageTitle(self, titleToVerify):
+        """
+        Verify the page Title
+        Parameters:
+            titleToVerify: Title on the page that needs to be verified
+        """
+        try:
+            actualTitle = self.getTitle()
+            if actualTitle.lower() in titleToVerify.lower():
+                self.log.info("### VERIFICATION CONTAINS !!!")
+                return True
+            else:
+                self.log.info("### VERIFICATION DOES NOT CONTAINS !!!")
+                return False
+
+        except:
+            self.log.error("Failed to get page title")
+            print_stack()
+            return False
+
+    def elementMoveto(self, locator="", locatorType="id", element=None):
+        """
+        Move on an element
+        Either provide element or a combination of locator and locatorType
+        """
+        try:
+            if locator:  # This means if locator is not empty
+                element = self.getElement(locator, locatorType)
+            action=ActionChains(self.driver)
+            action.move_to_element(element).perform()
+            self.log.info("Moved on element with locator: " + locator +
+                          " locatorType: " + locatorType)
+        except:
+            self.log.info("Cannot move on the element with locator: " + locator +
+                          " locatorType: " + locatorType)
+            print_stack()
+    def elementMovetoClick(self, locator="", locatorType="id", element=None):
+        """
+        Move on an element
+        Either provide element or a combination of locator and locatorType
+        """
+        try:
+            if locator:  # This means if locator is not empty
+                element = self.getElement(locator, locatorType)
+            action=ActionChains(self.driver)
+            action.move_to_element(element).click().perform()
+            self.log.info("Moved on element and click with locator: " + locator +
+                          " locatorType: " + locatorType)
+        except:
+            self.log.info("Cannot move and click on the element with locator: " + locator +
+                          " locatorType: " + locatorType)
+            print_stack()

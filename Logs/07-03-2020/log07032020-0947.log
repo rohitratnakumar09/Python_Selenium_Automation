@@ -1,0 +1,26 @@
+2020-03-07 09:47:22,351 - INFO - Element found with locator: //*[@id='header']//a[contains(text(),'Sign in')] and  locatorType: xpath
+2020-03-07 09:47:24,839 - INFO - Clicked on element with locator: //*[@id='header']//a[contains(text(),'Sign in')] locatorType: xpath
+2020-03-07 09:47:24,848 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 09:47:24,901 - INFO - Element found with locator: email and  locatorType: id
+2020-03-07 09:47:25,153 - INFO - Sent data on element with locator: email locatorType: id
+2020-03-07 09:47:25,187 - INFO - Element found with locator: passwd and  locatorType: id
+2020-03-07 09:47:25,324 - INFO - Sent data on element with locator: passwd locatorType: id
+2020-03-07 09:47:25,346 - INFO - Element found with locator: SubmitLogin and  locatorType: id
+2020-03-07 09:47:27,008 - INFO - Clicked on element with locator: SubmitLogin locatorType: id
+2020-03-07 09:47:27,031 - INFO - Element found with locator: //*[@id='center_column']//li[contains(text(),'Authentication failed.')] and  locatorType: xpath
+2020-03-07 09:47:27,031 - INFO - Element present with locator: //*[@id='center_column']//li[contains(text(),'Authentication failed.')] locatorType: xpath
+2020-03-07 09:47:27,031 - INFO - ### VERIFICATION SUCCESSFUL :: + In-valid SignIn
+2020-03-07 09:47:27,031 - INFO - test_invalid_SignIn ### TEST SUCCESSFUL
+2020-03-07 09:47:27,118 - INFO - Element found with locator: //*[@id='header']//a[contains(text(),'Sign in')] and  locatorType: xpath
+2020-03-07 09:47:29,254 - INFO - Clicked on element with locator: //*[@id='header']//a[contains(text(),'Sign in')] locatorType: xpath
+2020-03-07 09:47:29,266 - INFO - ### VERIFICATION CONTAINS !!!
+2020-03-07 09:47:29,281 - INFO - Element found with locator: email and  locatorType: id
+2020-03-07 09:47:29,543 - INFO - Sent data on element with locator: email locatorType: id
+2020-03-07 09:47:29,552 - INFO - Element found with locator: passwd and  locatorType: id
+2020-03-07 09:47:29,664 - INFO - Sent data on element with locator: passwd locatorType: id
+2020-03-07 09:47:29,678 - INFO - Element found with locator: SubmitLogin and  locatorType: id
+2020-03-07 09:47:31,892 - INFO - Clicked on element with locator: SubmitLogin locatorType: id
+2020-03-07 09:47:31,940 - INFO - Element found with locator: //*[@id='header']//span[contains(text(),'Firstname lastname')] and  locatorType: xpath
+2020-03-07 09:47:31,940 - INFO - Element present with locator: //*[@id='header']//span[contains(text(),'Firstname lastname')] locatorType: xpath
+2020-03-07 09:47:31,941 - INFO - ### VERIFICATION SUCCESSFUL :: + Valid SignIn
+2020-03-07 09:47:31,941 - INFO - test_valid_SignIn ### TEST SUCCESSFUL

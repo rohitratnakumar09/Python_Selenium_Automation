@@ -1,0 +1,54 @@
+[
+  {
+    "page_name":"Casual_Dress",
+    "name":"dresses_menu",
+    "locate":"xpath",
+    "locator":"//*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')]"
+  },
+  {
+    "page_name":"Casual_Dress",
+    "name":"casual_dresses_menu",
+    "locate":"xpath",
+    "locator":"//*[@id='block_top_menu']/ul/li[2]/ul/li[1]/a[contains(text(),'Casual Dresses')]"
+  },
+   {
+    "page_name":"Casual_Dress",
+    "name":"cat_name",
+    "locate":"xpath",
+    "locator":"//*[@id='center_column']//span[@class='cat-name']"
+  },
+
+  {
+    "page_name":"Casual_Dress",
+    "name":"printed_dress",
+    "locate":"xpath",
+    "locator":"//*[@id='center_column']//a[contains(text(),'Printed Dress')]"
+  },
+
+  {
+    "page_name":"Casual_Dress",
+    "name":"stock_check",
+    "locate":"xpath",
+    "locator":"//*[@class='available-now']//following::link"
+  },
+  {
+    "page_name": "Casual_Dress",
+    "name": "add_to_cart",
+    "locate": "xpath",
+    "locator": "//*[@title='Add to cart']"
+  },
+
+   {
+    "page_name":"Casual_Dress",
+    "name":"product_price",
+    "locate":"xpath",
+    "locator":"//*[@id='layer_cart_product_price']"
+  },
+
+  {
+    "page_name":"Casual_Dress",
+    "name":"product_hover",
+    "locate":"xpath",
+    "locator":"//*[@id='center_column']/ul/li/div"
+  }
+]

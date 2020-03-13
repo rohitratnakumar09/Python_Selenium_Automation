@@ -16,17 +16,20 @@ class Login_Test(unittest.TestCase):
             self.lp = Login_Page(self.driver)
             self.ts = Status(self.driver)
 
-
+        @pytest.mark.regression
         def test_valid_SignIn(self):
                   excel_Data=self.data.get_excel_data("LoginPage","test_valid_SignIn")
-
+                  self.lp.clickSignIn()
+                  self.lp.verifyPageTitle(excel_Data.get("Title"))
                   self.lp.login(excel_Data.get("Username"), excel_Data.get("Password"))
-                  result= self.lp.verifySignin()
+                  result= self.lp.verifySignin(excel_Data.get("Header-Info"))
                   self.ts.markFinal("test_valid_SignIn", result, "Valid SignIn","LoginPage")
 
+        @pytest.mark.regression
         def test_invalid_SignIn(self):
-            excel_Data = self.data.get_excel_data("LoginPage", "test_invalid_SignIn")
-
-            self.lp.login(excel_Data.get("Username"), excel_Data.get("Password"))
-            result= self.lp.errorSignIn()
-            self.ts.markFinal("test_invalid_SignIn", result, "In-valid SignIn", "LoginPage")
+             excel_Data = self.data.get_excel_data("LoginPage", "test_invalid_SignIn")
+             self.lp.clickSignIn()
+             self.lp.verifyPageTitle(excel_Data.get("Title"))
+             self.lp.login(excel_Data.get("Username"), excel_Data.get("Password"))
+             result= self.lp.errorSignIn()
+             self.ts.markFinal("test_invalid_SignIn", result, "In-valid SignIn", "LoginPage")
