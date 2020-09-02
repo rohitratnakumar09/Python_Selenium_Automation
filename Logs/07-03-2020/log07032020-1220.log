@@ -1,2 +1,0 @@
-2020-03-07 12:20:59,883 - INFO - Element found with locator: //*[@id='block_top_menu']/ul/li[2]/a[contains(text(),'Dresses')] and  locatorType: xpath
-2020-03-07 12:21:01,005 - INFO - ### VERIFICATION CONTAINS !!!

@@ -3,6 +3,7 @@ from selenium import webdriver
 import os
 import logging
 from Utilities.config_utility import config_utility
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class Web_Driver():
 
@@ -25,17 +26,19 @@ class Web_Driver():
             driver_path = os.path.join(self.directory, firefox_path)
             driver = webdriver.Firefox(executable_path=driver_path,service_log_path='../Logs/geckodriver.log')
         elif self.browser == "chrome":
-
-
-
             chrome_path = self.prop.get('PROD', 'chrome_path')
             driver_path=os.path.join(self.directory,chrome_path)
             driver = webdriver.Chrome(driver_path)
             driver.set_window_size(1440, 900)
+        elif self.browser == "dockerfirefox":
+            driver = webdriver.Remote( command_executor='http://localhost:4444/wd/hub',desired_capabilities=DesiredCapabilities.FIREFOX,)
+
+        elif self.browser == "dockerchrome":
+            driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub',
+                                      desired_capabilities=DesiredCapabilities.CHROME, )
+
+
         else:
-
-
-
             chrome_path = self.prop.get('PROD', 'chrome_path')
             driver_path = os.path.join(self.directory, chrome_path)
             driver = webdriver.Chrome(driver_path)

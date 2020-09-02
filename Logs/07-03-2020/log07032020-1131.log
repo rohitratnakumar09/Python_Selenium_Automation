@@ -1,5 +1,0 @@
-2020-03-07 11:31:38,663 - ERROR - Failed to get page title
-2020-03-07 11:31:38,695 - INFO - Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
-2020-03-07 11:31:38,695 - INFO - Moved on element with locator: //a[@title='Dresses'] locatorType: xpath
-2020-03-07 11:31:38,712 - INFO - Element found with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] and  locatorType: xpath
-2020-03-07 11:31:38,723 - INFO - Cannot move and click on the element with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] locatorType: xpath

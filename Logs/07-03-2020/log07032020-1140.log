@@ -1,7 +1,0 @@
-2020-03-07 11:40:53,940 - INFO - Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
-2020-03-07 11:40:53,941 - INFO - Moved on element with locator: //a[@title='Dresses'] locatorType: xpath
-2020-03-07 11:40:53,942 - INFO - Waiting for maximum :: 60 :: seconds for element to be clickable
-2020-03-07 11:41:53,992 - INFO - Element not appeared on the web page
-2020-03-07 11:41:54,037 - INFO - Element found with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] and  locatorType: xpath
-2020-03-07 11:41:54,072 - INFO - Cannot move and click on the element with locator: //div[@id='block_top_menu']//child::a[contains(text(),'Casual Dresses')] locatorType: xpath
-2020-03-07 11:41:54,101 - INFO - ### VERIFICATION CONTAINS !!!
